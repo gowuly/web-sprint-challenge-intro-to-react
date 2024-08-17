@@ -107,7 +107,7 @@ Awesome! Our back-end engineer says that the JSON data needed to build the Star 
 
 ❗ You should stop now, and **try out both endpoints using Postman**, to see what they return.
 
-Inside `frontend/components/App.js`, and **on first render only**, fetch the data from both endpoints above.
+Inside `frontend/components/App.js`, and **on first render only**, fetch the data from both endpoints above. 
 
 Here's the tricky thing: each character fetched using Endpoint A has a "homeworld" property, but the value of this property is not the name of the planet but its ID instead. This means you must use the data obtained from Endpoint B to obtain the missing piece of information about each character: the name of their home world.
 
